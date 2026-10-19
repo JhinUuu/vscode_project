@@ -12,7 +12,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
 
         // 예시 : 로그인 후 페이지 이동
         setTimeout(() => {
-            window.location.href = "welcom.html";
+            window.location.href = "welcome.html";
         }, 1000);
     } else {
         message.style.color = "red";
