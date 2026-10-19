@@ -2,7 +2,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
     e.preventDefault(); // 폼의 기본 제출 막기
 
     const username = document.getElementById("username").value.trim();
-    const password = document.getElementById("passowrd").value.trim();
+    const password = document.getElementById("password").value.trim();
     const message = document.getElementById("message");
 
     // 간단한 로그인 검증 로직 (임시)
